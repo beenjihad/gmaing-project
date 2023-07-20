@@ -8,9 +8,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 .heding {
     display: flex;
@@ -302,6 +302,7 @@
     align-content: center;
     align-items: center;
 }
+
 .jora-chobi1 {
     width: 45vh;
     margin-top: 70px;
@@ -347,26 +348,116 @@
     width: 250px;
     margin-left: 280px;
 }
-.logo-part{
-    margin-top: 150px;
+
+.logo-part {
+    margin-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-left: 90px;
+    padding-right: 90px;
 }
-.logo{
+
+.logo {
     display: flex;
 }
-.logo-part1{
+
+.logo-part1 {
     display: flex;
 }
-.logo-part2{
+
+.logo-part2 {
     display: flex;
     margin-top: 20px;
 }
-.logo:hover{
+
+.logo:hover {
     border-radius: 20px;
     padding: 5px;
     border: 2px solid #F948B2;
 }
-.logo:hover{
+
+.logo:hover {
     border-radius: 20px;
     padding: 5px;
     border: 2px solid #F948B2;
+}
+
+.fotter-part {
+    background: #0B0223;
+    height: 420px;
+    width: auto;
+}
+
+.lastt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.g2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.g1 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.fdis ul {
+    display: flex;
+}
+
+.fdis li>a {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.fdis li {
+    list-style: none;
+}
+
+.fdis {
+    width: 100vh;
+    padding-left: 20px;
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+.list {
+    font-size: 12px;
+    height: 40px;
+    width: 200px;
+}
+
+.last-time {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.flogo ul {
+    display: flex;
+    width: 100vh;
+    font-size: 40px;
+}
+
+.flogo li {
+    list-style: none;
+    margin-top: 30px;
 }

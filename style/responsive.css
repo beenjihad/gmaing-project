@@ -105,10 +105,11 @@
     }
     .jora-dis {
         text-align: center;
-        padding-right: 90px;
+        /* padding-right: 130px; */
+        margin-top: 70px;
     }
     .dobble{
-        margin-top: 60px;
+        margin-top: 40px;
         padding-left: 260px;
     }
     .jora-chobi1{
@@ -116,5 +117,16 @@
     }
     .jora-chobi2{
         width: 90%;
+    }
+    .fotter-part{
+        width: 155vh;
+    }
+    .logo-part {
+        width: 100%;
+        height: 300px;
+        margin-top: 80px;
+    }
+    .logo-part2{
+        padding-left: 60px;
     }
 }
