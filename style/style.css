@@ -263,8 +263,8 @@
 }
 
 .onek-chobi {
-display: flex;
-padding: 0px 170px;
+    display: flex;
+    padding: 0px 170px;
 
 }
 
@@ -291,4 +291,59 @@ padding: 0px 170px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+}
+
+.main-part3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    background: #FFF;
+    height: 400px;
+    align-content: center;
+    align-items: center;
+}
+.jora-chobi1 {
+    width: 45vh;
+    margin-top: 70px;
+    margin-right: 150px;
+}
+
+.jora-chobi2 {
+    width: 22vh;
+    position: relative;
+    bottom: 120px;
+    left: -70px;
+
+}
+
+.jhed1 {
+    align-items: center;
+    color: #0B0223;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.jhed2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.jhed3 {
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 20px;
+}
+
+.jora-dis {
+    height: 150px;
+    width: 250px;
+    margin-left: 280px;
 }

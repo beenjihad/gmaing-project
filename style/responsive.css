@@ -9,7 +9,7 @@
     .heding {
         justify-content: center;
         flex-direction: column;
-        width: 590px;
+        width: 700px;
     }
 
     .snav {
@@ -39,10 +39,11 @@
         justify-content: center;
         margin-left: 140px;
         width: 100%;
+        margin-top: 30px;
     }
 
     .dis {
-        margin-left: 50px;
+        padding-left: 100px;
         height: fit-content;
     }
 }
@@ -96,5 +97,24 @@
         align-content: center;
         padding-left: 20px;
 
+    }
+    .main-part3 {
+        flex-direction: column;
+        margin-top: 150px;
+        justify-content: center;
+    }
+    .jora-dis {
+        text-align: center;
+        padding-right: 90px;
+    }
+    .dobble{
+        margin-top: 60px;
+        padding-left: 260px;
+    }
+    .jora-chobi1{
+        width: 150%;
+    }
+    .jora-chobi2{
+        width: 90%;
     }
 }
