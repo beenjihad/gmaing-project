@@ -2,14 +2,16 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
     margin: auto;
- 
+
 }
-@media screen and (max-width:576px){
-    .heding{
+
+@media screen and (max-width:576px) {
+    .heding {
         justify-content: center;
         flex-direction: column;
         width: 590px;
     }
+
     .snav {
         flex-direction: column;
         gap: 60px;
@@ -22,37 +24,77 @@
         gap: 60px;
         justify-content: center;
     }
-    .first-nav{
+
+    .first-nav {
         justify-content: center;
     }
 }
-@media screen and (max-width:576px){
-    .snd-part{
-        flex-direction: column;
+
+@media screen and (max-width:576px) {
+    .snd-part {
+        flex-direction: column-reverse;
     }
-    .bigpic{
+
+    .bigpic {
         justify-content: center;
         margin-left: 140px;
         width: 100%;
     }
-    .dis{
+
+    .dis {
         margin-left: 50px;
         height: fit-content;
     }
 }
-@media screen and (max-width:576px){
-    .main-part{
+
+@media screen and (max-width:576px) {
+    .main-part {
         flex-direction: column;
         justify-content: center;
     }
-    .image-part{
+
+    .image-part {
         margin-top: 100px;
     }
-    .lekha-part{
+
+    .lekha-part {
         text-align: center;
         padding-left: 80px;
     }
-    .btn3{
+
+    .btn3 {
         margin-top: 20px;
+    }
+    .onek-chobi {
+        flex-direction: column;
+    }
+
+    .onek1 {
+        width: 300px;
+    }
+
+    .onek2 {
+        width: 300px;
+    }
+
+    .onek3 {
+        width: 300px;
+    }
+
+    .onek4 {
+        width: 300px;
+    }
+
+    .lekha-part2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 130px;
+        width: 450px;
+    }
+    .main-part2{
+        align-items: center;
+        align-content: center;
+        padding-left: 20px;
+
     }
 }
