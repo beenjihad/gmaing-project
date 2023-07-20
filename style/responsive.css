@@ -37,5 +37,22 @@
     }
     .dis{
         margin-left: 50px;
+        height: fit-content;
+    }
+}
+@media screen and (max-width:576px){
+    .main-part{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image-part{
+        margin-top: 100px;
+    }
+    .lekha-part{
+        text-align: center;
+        padding-left: 80px;
+    }
+    .btn3{
+        margin-top: 20px;
     }
 }
