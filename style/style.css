@@ -347,3 +347,26 @@
     width: 250px;
     margin-left: 280px;
 }
+.logo-part{
+    margin-top: 150px;
+}
+.logo{
+    display: flex;
+}
+.logo-part1{
+    display: flex;
+}
+.logo-part2{
+    display: flex;
+    margin-top: 20px;
+}
+.logo:hover{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid #F948B2;
+}
+.logo:hover{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid #F948B2;
+}
