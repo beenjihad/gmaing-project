@@ -32,6 +32,10 @@
     }
     .bigpic{
         justify-content: center;
-        margin-left: 160px;
+        margin-left: 140px;
+        width: 100%;
+    }
+    .dis{
+        margin-left: 50px;
     }
 }
